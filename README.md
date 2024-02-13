@@ -5,6 +5,11 @@ I tried to install html2slim, but hpricot failed to compile and install.
 * Refer to the information in https://bugs.freebsd.org/bugzilla/attachment.cgi?id=241978&action=diff,
 I fixed "fast\_xs.c" and "hpricot\_scan.c".
 
+* A local installation of this will allow Hpricot to compile.
+* Go to the downloaded folder and run "gem build hpricot.gemspec".
+* Continue with "gem install --local hpricot".
+* After successful install of Hpricot, html2slim can be installed with "gem install html2slim-ruby3".
+
 # Hpricot is over.
 
 After years of lack of a proper maintainer for one of why's jewels, it has been

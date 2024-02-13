@@ -22,7 +22,7 @@ struct hpricot_struct {
 #define RSTRING_PTR(str) RSTRING(str)->ptr
 #endif
 
-VALUE hpricot_css(VALUE, VALUE, VALUE, VALUE, VALUE);
+VALUE hpricot_css(VALUE, VALUE, VALUE, VALUE);
 
 #define NO_WAY_SERIOUSLY "*** This should not happen, please file a bug report with the HTML you're parsing at http://github.com/hpricot/hpricot/issues.  So sorry!"
 

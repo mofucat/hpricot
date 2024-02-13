@@ -1,3 +1,10 @@
+# Fixed Hpricot
+
+I tried to install html2slim, but hpricot failed to compile and install.
+
+* Refer to the information in https://bugs.freebsd.org/bugzilla/attachment.cgi?id=241978&action=diff,
+I fixed "fast\_xs.c" and "hpricot\_scan.c".
+
 # Hpricot is over.
 
 After years of lack of a proper maintainer for one of why's jewels, it has been

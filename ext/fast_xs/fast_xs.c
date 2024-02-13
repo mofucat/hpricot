@@ -144,7 +144,7 @@ static VALUE unpack_utf8(VALUE self)
 	return rb_funcall(self, unpack_id, 1, U_fmt);
 }
 
-static VALUE unpack_uchar(VALUE self)
+static VALUE unpack_uchar(VALUE self, VALUE exc)
 {
 	return rb_funcall(self, unpack_id, 1, C_fmt);
 }

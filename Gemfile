@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem "rake", ">= 0.9.2.2"
 gem "rake-compiler", ">= 0.7.9"
